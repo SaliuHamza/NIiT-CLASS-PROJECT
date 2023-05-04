@@ -65,6 +65,7 @@ header{
     color: #212832;
     margin-left: 3rem;
     margin-right: 3rem;
+    margin-top: -10px
 }
 
 .text1{
@@ -297,12 +298,12 @@ header{
     margin-top: 10rem;
     margin-left: -34px;
 }
-.rome:hover{
+/* .rome:hover{
     box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
     border-radius: 24px;
     transform:scale(1.1);
     transition:1s;
-}
+} */
 .section4{
     display:flex;
     justify-content: center;
@@ -602,7 +603,7 @@ color: #080809;
 
 .flex {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 
 .sroll{
@@ -694,6 +695,7 @@ color: #080809;
 }
 
 footer{
+    
     display: flex;
     justify-content:space-evenly;
 }
@@ -836,7 +838,7 @@ footer{
    } 
 
    .days{
-    width: 240px;
+    width: 250px;
     height: 120px;
     
 }
@@ -872,18 +874,24 @@ footer{
 .text4 h2 {
     font-size: 40px;
     line-height: 50px;
-    width: 450px;
+    width: 400px;
     height: 130px;
     padding-bottom: 10rem;
 }
 .textbooking h6{
     font-size: 13px;
+    
+
 }
 
 .textbooking p{
     font-size: 12px;
     line-height: 124.5%;
+    width: 200px;
+    height: 40px;
+
 }
+
 .text5 h6{
     font-size: 14px;
     line-height: 27px;
@@ -1157,9 +1165,9 @@ margin-top: 10rem;
 }
 
 .text4 h2 {
-    font-size: 40px;
+    font-size: 35px;
     line-height: 50px;
-    width: 450px;
+    width: 350px;
     height: 130px;
     padding-bottom: 10rem;
 }
@@ -1171,6 +1179,12 @@ margin-top: 10rem;
     font-size: 12px;
     line-height: 124.5%;
 }
+.trip img{
+    margin-top: -6rem;
+    margin-right: -5rem;
+    height: 100%;
+    width: 120%;
+}
 .text5 h6{
     font-size: 14px;
     line-height: 27px;
@@ -1179,16 +1193,16 @@ margin-top: 10rem;
 
 
 .text5 h2{
-    font-size: 40px;
+    font-size: 30px;
     line-height: 64px;
     padding-bottom: 12rem;
-    width: 380px;
+    width: 300px;
     height: 130px;
 }
 
 .rectangle1{
-    width: 350px;
-    height: 170px;
+    width: 250px;
+    height: 150px;
     margin-top: -4rem;
     margin-left: -5rem;
 }
@@ -1200,6 +1214,7 @@ margin-top: 10rem;
 
 .about{
     margin-top: 3rem;
+    margin-right:-5rem;
 }
 
 .section5{
@@ -1207,28 +1222,30 @@ margin-top: 10rem;
 }
 
 .rectangle1 p{
-    font-size: 25px;
-    line-height: 20px;
-    width: 270px;
+    font-size: 20px;
+    line-height: 15px;
+    width: 195px;
     height: 60px;
 }
 .rectangle1 h6{
-    font-size: 14px;
-    line-height: 10px;
+    font-size: 12px;
+    line-height: 5px;
 }
 .rectangle1 span{
-    font-size: 14px;
-    line-height: 21px;
+    font-size: 12px;
+    line-height: 5px;
+    margin-top: -1rem;
 }
 
 .under{
-    width: 350px;
-    height: 150px;
+    width: 250px;
+    height: 130px;
 }
 
 .under h6{
-    font-size: 14px;
-    line-height: 20px;
+    margin-top: -10px;
+    font-size: 12px;
+    line-height: 10px;
    
 }
 .under p{
@@ -1238,20 +1255,24 @@ margin-top: 10rem;
 }
 
 .sroll img{
-    width: 70%;
+    width: 40%;
 }
 
 .sroll{
-    margin-left: 3rem;
+    margin-left: 6rem;
     margin-top: 6rem;
 }
 
 .logos {
     width: 90%;
 }
+.star{
+    width: 18%;
+    margin-right: 2rem;
+}
 
 .subscribe{
-    width: 700px;
+    width: 600px;
     height: 350px;
 }
 
